@@ -5,7 +5,7 @@ The msf2eml.sh is the same program in bash, but it takes longer to execute :) .
 While it takes a few minutes to write it
 instead in c language which could takes hours ! 
 
-At the end, the program c is much fast and worth to code !
+At the end, the program written in c is faster and worth to code !
 
 1 - Prerequisite :
 
