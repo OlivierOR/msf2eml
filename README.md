@@ -28,3 +28,6 @@ It will extract all mails from the fichier.msf to numbered emails with the ".eml
 At the screen you will see the mail's number processed.
 
 Have fun !!
+
+PS : I found that the best is to do it with awk, it will be the faster :
+awk '/From -/{close(i".eml");i++}{print > i".eml";}' fichier.msf
